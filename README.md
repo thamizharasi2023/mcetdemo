@@ -31,7 +31,7 @@ Clone this repository to your local machine:
 
 bash
 
-git clone https://github.com/athamizharasi2023/mcetdemocs.git
+git clone https://github.com/thamizharasi2023/mcetdemo.git
 cd your-repository
 
 Step 2: Set Up YOLO Weights
