@@ -82,7 +82,8 @@ def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 
 def main():
     st.title('Web Application')
     
-    video_stream = cv2.VideoCapture("https://videos.pexels.com/video-files/855564/855564-hd_1920_1080_24fps.mp4")
+    #video_stream = cv2.VideoCapture("https://videos.pexels.com/video-files/855564/855564-hd_1920_1080_24fps.mp4")
+    video_stream = cv2.VideoCapture("https://www.veed.io/view/78f46969-ac5a-4837-a2a3-c730afb38f0b?panel=share")
     global model
     model = YOLO("yolo11n.pt")
     class_names= model.names
