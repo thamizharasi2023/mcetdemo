@@ -4,8 +4,7 @@ import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
-#results = model("../sampletest.jpg")
-#results[0].show()
+
 import time
 
 def process_frame(frame,output_image):
