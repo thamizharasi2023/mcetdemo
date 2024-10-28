@@ -82,7 +82,7 @@ def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 
 def main():
     st.title('Web Application')
     
-    video_stream = cv2.VideoCapture(0)
+    video_stream = cv2.VideoCapture("./samplevideo.mp4")
     global model
     model = YOLO("yolo11n.pt")
     class_names= model.names
