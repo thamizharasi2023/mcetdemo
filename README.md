@@ -43,7 +43,7 @@ Run the application using the following command:
 
 bash
 
-streamlit run app.py
+streamlit run sample.py
 
 Step 4: Access the App
 
