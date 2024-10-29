@@ -83,7 +83,8 @@ def main():
     st.title('Web Application')
     
     #video_stream = cv2.VideoCapture("https://videos.pexels.com/video-files/855564/855564-hd_1920_1080_24fps.mp4")
-    video_stream =cv2.VideoCapture("rtsp://admin:admin@152.58.217.233:1935")
+    #video_stream =cv2.VideoCapture("rtsp://admin:admin@152.58.217.233:1935")
+    video_stream =cv2.VideoCapture("./test.mp4")
     global model
     model = YOLO("yolo11n.pt")
     class_names= model.names
